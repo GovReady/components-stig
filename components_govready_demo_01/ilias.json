@@ -1,0 +1,74 @@
+{
+  "component-definition": {
+    "uuid": "192c4407-7135-4ebe-837e-be789c664324",
+    "metadata": {
+      "title": "ILIAS Component-to-Control Narratives",
+      "published": "2021-06-11T14:13:23+00:00",
+      "last-modified": "2021-06-11T14:12:34+00:00",
+      "version": "2021-06-11T14:12:34+00:00",
+      "oscal-version": "1.0.0-rc1"
+    },
+    "components": {
+      "a42932ab-7aa9-4c34-a643-2840b6630a19": {
+        "title": "Cybrary",
+        "type": "software",
+        "description": "ILIAS Training course",
+        "control-implementations": [
+          {
+            "uuid": "066e4a5f-ec4f-4217-acf7-9949b470cce2",
+            "source": "NIST_SP-800-53_rev4",
+            "description": "Partial implementation of NIST_SP-800-53_rev4",
+            "implemented-requirements": [
+              {
+                "uuid": "a7c88b52-4132-40ca-8152-f53906373b78",
+                "control-id": "at-2",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "at-2_smt": {
+                    "uuid": "3d9091a6-1315-4fb9-94c7-f138e0d93191",
+                    "description": "ILIAS provides a complete catalog of security awareness and role-based security training. ILIAS also tracks the training completed by each user. ILIAS content can be tailored for annual security awareness.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "228ca1fb-63d2-4117-bc1c-00ee2dca577f",
+                "control-id": "at-3",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "at-3_smt": {
+                    "uuid": "08a5bcb1-80ff-4c44-8f5f-28d24c796e63",
+                    "description": "Role base training implementation narrative.",
+                    "remarks": ""
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "uuid": "7e80afb6-c593-4ca7-862b-032d3b1ebb10",
+            "source": "NIST_SP-800-53_rev5",
+            "description": "Partial implementation of NIST_SP-800-53_rev5",
+            "implemented-requirements": [
+              {
+                "uuid": "69fbe9ec-56de-47dc-8e65-e962bf59bdcb",
+                "control-id": "at-2.2",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "at-2.2_smt": {
+                    "uuid": "ddba3705-efbd-446f-8ac1-2c68f1b28e55",
+                    "description": "This is how ILIAS helps with Insider Threat training.",
+                    "remarks": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

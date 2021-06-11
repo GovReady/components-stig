@@ -1,0 +1,41 @@
+{
+  "component-definition": {
+    "uuid": "85b9f748-8374-45b1-a772-c2810056292e",
+    "metadata": {
+      "title": "CircleCI Component-to-Control Narratives",
+      "published": "2021-06-11T13:55:42+00:00",
+      "last-modified": "2021-05-02T22:47:21+00:00",
+      "version": "2021-05-02T22:47:21+00:00",
+      "oscal-version": "1.0.0-rc1"
+    },
+    "components": {
+      "cb2bc09c-bb90-4e71-aa8c-51fd0b5e2d2b": {
+        "title": "CircleCI",
+        "type": "software",
+        "description": "CircleCI is a hosted continuous-integration service for GitHub, GitLab, and Bitbucket projects",
+        "control-implementations": [
+          {
+            "uuid": "4e922728-11c2-4605-9dbe-1c92af80f61f",
+            "source": "NIST_SP-800-53_rev4",
+            "description": "Partial implementation of NIST_SP-800-53_rev4",
+            "implemented-requirements": [
+              {
+                "uuid": "9e797a05-6ed1-4b13-9860-1da8137d5008",
+                "control-id": "si-7",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "si-7_smt": {
+                    "uuid": "62e07c6b-65ce-48b5-9dfd-624cbb38ad44",
+                    "description": "CircleCI continuous integration service runs automated tests on software builds which can include scanners and integrity verification tools to help ensure the integrity of the software.",
+                    "remarks": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "component-definition": {
+    "uuid": "00c001d9-e0f3-4562-8769-8801600050fc",
+    "metadata": {
+      "title": "New Relic (demo) Component-to-Control Narratives",
+      "published": "2021-06-11T13:55:42+00:00",
+      "last-modified": "2021-04-21T17:23:34+00:00",
+      "version": "2021-04-21T17:23:34+00:00",
+      "oscal-version": "1.0.0-rc1",
+      "props": [
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "demo_data"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "lorem"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "CaaS"
+        }
+      ]
+    },
+    "components": {
+      "0a1bdd0c-ea92-4d03-8a7b-6a2128552490": {
+        "title": "New Relic (demo) (CaaS)",
+        "type": "software",
+        "description": "New Relic (demo) ",
+        "control-implementations": [
+          {
+            "uuid": "d4cb9e63-314c-43b7-b4b6-fd8909632af0",
+            "source": "NIST_SP-800-53_rev4",
+            "description": "Partial implementation of NIST_SP-800-53_rev4",
+            "implemented-requirements": [
+              {
+                "uuid": "838ba190-f049-4e80-9d84-4e99614b17f7",
+                "control-id": "ac-1",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-1_smt": {
+                    "uuid": "72c8ead6-0830-4e99-bc88-4e095b0ae3e4",
+                    "description": "Nostrum inventore at totam neque libero earum, molestiae reiciendis aliquam veritatis fugit culpa. Nihil itaque officia voluptatum animi, doloremque facere perferendis atque incidunt minus eligendi rem quis, tempore quasi magni omnis culpa optio mollitia doloribus unde debitis obcaecati. Quae doloribus voluptatum, provident repudiandae porro officiis placeat corporis."
+                  }
+                }
+              },
+              {
+                "uuid": "4d35e813-84a8-4c3d-a738-568bd9e13cf5",
+                "control-id": "ac-17",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-17_smt": {
+                    "uuid": "62f77b78-cfa1-446b-a2a4-14216b22316b",
+                    "description": "Enim harum praesentium nemo officia odit molestiae fugiat itaque, beatae aperiam harum quia blanditiis, repellendus molestias doloremque vel nostrum inventore cum, placeat dolore adipisci mollitia labore officia quia sequi neque enim quae?"
+                  }
+                }
+              },
+              {
+                "uuid": "51878c89-c0c1-472e-bb46-8ed6ffe95b61",
+                "control-id": "ac-3",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-3_smt": {
+                    "uuid": "125cf653-d65f-4e67-9b74-4302210ca1f3",
+                    "description": "Debitis sunt inventore quae suscipit consequuntur dolorum error praesentium explicabo corrupti, tempora non dolorem culpa sit mollitia quod voluptas, reprehenderit quas doloribus error molestiae perferendis neque exercitationem in nesciunt nostrum, sequi excepturi dignissimos cumque accusamus necessitatibus. Provident voluptatum distinctio commodi facere dignissimos pariatur architecto repellendus nemo iste, non quisquam nobis quidem harum vel exercitationem magni quibusdam, quisquam et ad. Recusandae sequi quia, temporibus doloremque veniam provident atque voluptatibus, laboriosam dolorum quaerat impedit assumenda excepturi officiis vitae, quam sint ab dolore, cumque dolorum necessitatibus sequi nulla possimus ipsa eius porro praesentium pariatur veniam."
+                  }
+                }
+              },
+              {
+                "uuid": "6b7057e0-55e8-442b-917e-ad9a69a8081b",
+                "control-id": "au-12",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "au-12_smt": {
+                    "uuid": "59929e8a-39c1-4228-ad99-d82babcd4d5b",
+                    "description": "Assumenda accusamus laboriosam suscipit possimus sed tempora aut culpa tempore reprehenderit, explicabo laudantium magnam illo sapiente consequatur aliquam placeat ea, cum quo aspernatur, nostrum cum iure fugit provident vitae, animi consequatur quas vitae nesciunt consectetur debitis."
+                  },
+                  "au-12_smt.03": {
+                    "uuid": "cb3977a9-febf-44eb-9ec6-fb9454bebb11",
+                    "description": "Nemo sint tenetur architecto accusantium voluptas dolore nam ratione blanditiis, suscipit sunt repudiandae cupiditate, labore voluptates voluptas consequatur tempora expedita doloribus voluptate quisquam, ea iste quo maiores iure? Voluptatem amet asperiores, nam cupiditate itaque sed quia esse et aspernatur quis necessitatibus asperiores facilis. Dolores non animi asperiores earum veniam, temporibus ullam illo officiis qui quibusdam rem atque, quaerat perferendis et magni, quis reiciendis sapiente iusto accusamus earum ea consequatur eum cupiditate aut, numquam ad fugit facilis dicta ut id error."
+                  }
+                }
+              },
+              {
+                "uuid": "8257c407-79a4-46a5-8033-2bc16611f667",
+                "control-id": "au-2",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "au-2_smt": {
+                    "uuid": "cc3abeb4-b08b-4d11-ab84-7e88e7667b17",
+                    "description": "Iste in commodi neque incidunt sequi tempora ex reiciendis ipsum quasi minima, error enim ad a recusandae neque corporis similique at, sed dolor nostrum. Natus nam iusto veritatis expedita quaerat dicta, nisi iure officia porro aperiam nobis hic, placeat nostrum perspiciatis natus cum ab nesciunt veniam atque qui, dolorem voluptates id provident quos praesentium officia a quia architecto dicta earum, cumque dolorem voluptatem optio aut quae repellendus quidem ab nihil eum voluptates? Eveniet labore incidunt sequi sint magni facilis tempore omnis eum velit, at magni atque necessitatibus, nam officia ex soluta, eius ab numquam."
+                  }
+                }
+              },
+              {
+                "uuid": "817f3d8f-d060-4cab-bf4b-3fbba2a46b41",
+                "control-id": "au-6",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "au-6_smt.05": {
+                    "uuid": "84810f00-cc9d-48d0-8c69-f8fa36a3581d",
+                    "description": "Dolorum laudantium quas, tempora ducimus fugit esse repudiandae dignissimos aliquid iste iure optio autem, a distinctio recusandae saepe veritatis doloremque quia cupiditate iste optio magnam velit, vitae eos illo aperiam ipsa id, similique sit nihil facere."
+                  }
+                }
+              },
+              {
+                "uuid": "7de30fa5-ef9f-4653-9983-58b3e1a65985",
+                "control-id": "au-9",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "au-9_smt": {
+                    "uuid": "4f96a38c-90b3-4462-a0d5-4de5915b1e5f",
+                    "description": "Hic eos repellat laborum harum, tempore id commodi reprehenderit. Dignissimos minima modi quae suscipit dicta quas sed nemo animi ducimus, sapiente a corporis eius sequi tenetur exercitationem possimus, aliquam laboriosam temporibus repellat dicta veritatis voluptates odit atque qui, magni suscipit sunt veritatis optio iste laborum odit necessitatibus cumque deleniti commodi? Earum nobis aliquid, nostrum architecto voluptate ratione necessitatibus quasi cumque earum fugit cupiditate repellendus veritatis, quaerat eos rem voluptatum reprehenderit voluptatibus magni facere saepe natus explicabo, voluptate blanditiis voluptatem temporibus nesciunt vitae ad quibusdam, dolorum iste harum ullam rem?"
+                  }
+                }
+              },
+              {
+                "uuid": "8ef3b97e-b281-4f18-9100-17091068e1f9",
+                "control-id": "ca-7",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ca-7_smt": {
+                    "uuid": "55c442c8-96f9-4df5-a371-637ba975cc9a",
+                    "description": "Atque tenetur harum quaerat culpa aspernatur praesentium facilis sunt repellendus nisi, nam iste nostrum?"
+                  }
+                }
+              },
+              {
+                "uuid": "ae2e75f7-9b87-4fed-87dd-a69d2b378822",
+                "control-id": "cm-3",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "cm-3_smt": {
+                    "uuid": "c30896c6-3efb-47fa-8b9d-502a542af0b1",
+                    "description": "Aspernatur quae officiis cum veniam quasi beatae, inventore ipsa repellendus reprehenderit quam quibusdam iusto, recusandae consequatur ab suscipit aliquid ex culpa provident assumenda, nihil error laboriosam inventore sapiente quam explicabo molestiae incidunt ipsam. Ut saepe excepturi autem culpa cumque consequuntur ea vero officia, sunt numquam nihil, sint eos officiis, distinctio quos recusandae nemo dolorum, illo esse illum odio quam praesentium pariatur repudiandae id quos asperiores. Obcaecati aut ab eius quaerat explicabo iste, ut nihil dicta ipsum repellat sunt necessitatibus similique assumenda quam, possimus unde dolores fuga porro odit minus explicabo?"
+                  }
+                }
+              },
+              {
+                "uuid": "07414225-5311-46f7-aff7-169a9aa233bd",
+                "control-id": "cm-6",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "cm-6_smt": {
+                    "uuid": "6a86817e-726e-49f6-954c-141db88e9163",
+                    "description": "Laborum quod cumque consectetur, temporibus exercitationem dolore aliquid amet inventore asperiores debitis pariatur ipsam praesentium atque? In maxime porro optio voluptatem fugit beatae doloremque atque tenetur fuga consectetur, ipsum magni veniam impedit suscipit, magnam laboriosam voluptas possimus doloremque est quae sit molestiae quisquam, rem quia temporibus nihil quod quisquam possimus quae, explicabo quia voluptas sapiente repellat."
+                  }
+                }
+              },
+              {
+                "uuid": "64e2bf61-341f-4c32-8e2d-dd783f6ad0ce",
+                "control-id": "sa-15",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "sa-15_smt": {
+                    "uuid": "ab2dd865-5ce4-44be-8367-38cb3857f81c",
+                    "description": "Repudiandae adipisci laudantium dolore voluptatum, maxime praesentium vero dolorem quaerat in rerum, possimus aperiam nesciunt repellendus enim pariatur aliquam? Similique dolorum quibusdam, distinctio aperiam qui cum consequatur deleniti?"
+                  }
+                }
+              },
+              {
+                "uuid": "ff8a598b-2039-497f-91b9-84adc9ef51d2",
+                "control-id": "sc-12",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "sc-12_smt.03": {
+                    "uuid": "a27e972e-b21d-4e33-8911-8d45d771c5cf",
+                    "description": "Inventore vel assumenda, ipsum consectetur recusandae nostrum quos magnam repellendus officia temporibus alias aperiam corporis, nemo quam sed necessitatibus aliquam esse voluptas odio minima, porro et autem, perspiciatis placeat odio nostrum."
+                  }
+                }
+              },
+              {
+                "uuid": "05f89fba-8fad-43db-9a33-3ee51ef72121",
+                "control-id": "sc-13",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "sc-13_smt": {
+                    "uuid": "e6390c4e-024b-4f2f-9b60-845142eb8b80",
+                    "description": "Neque nostrum autem velit doloremque, error dolore at esse beatae rem vero obcaecati non necessitatibus quo voluptates, nostrum ut dolorem ratione iusto accusamus officia suscipit velit nesciunt. Rem enim earum veritatis placeat tempora debitis beatae dignissimos, officia autem esse hic eaque voluptates inventore delectus illum voluptatum?"
+                  }
+                }
+              },
+              {
+                "uuid": "7822fd25-28e2-4dd6-b8c2-63a6baf8a33f",
+                "control-id": "sc-28",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "sc-28_smt.01": {
+                    "uuid": "bfe9804f-0bb1-4848-b1f6-a07da2ee3e3f",
+                    "description": "Voluptates sunt sapiente est, praesentium sit ab reprehenderit."
+                  }
+                }
+              },
+              {
+                "uuid": "f5de40a6-df29-427c-921d-cc1d16312bcf",
+                "control-id": "sc-8",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "sc-8_smt": {
+                    "uuid": "fe50511d-25da-4bb6-96ee-6b8151a48fe0",
+                    "description": "Consectetur sunt expedita excepturi tempora ipsa voluptate perferendis et asperiores esse ex, cum error corporis autem quidem suscipit? Sint voluptatem iure necessitatibus repellendus recusandae omnis iste vel ullam, nam earum tempore aliquam soluta sint eos necessitatibus nisi, a nobis autem quidem incidunt recusandae eos dolor ad magnam atque."
+                  },
+                  "sc-8_smt.01": {
+                    "uuid": "63262129-bded-4bb5-81ae-c3dfa44c0576",
+                    "description": "Ducimus consequatur debitis voluptatum officiis, sit sapiente ducimus enim in fuga officiis cupiditate temporibus ratione accusantium, quidem soluta enim voluptates sequi. Qui facere illo magnam nam reiciendis beatae iste eaque eligendi quae molestiae, omnis ex beatae ad labore ullam excepturi quas ipsa minima, omnis facere sapiente deleniti distinctio odit explicabo impedit iste quod corrupti ipsam."
+                  }
+                }
+              },
+              {
+                "uuid": "3d6320d1-87be-4140-8031-66a602d966ad",
+                "control-id": "si-2",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "si-2_smt": {
+                    "uuid": "ec1c862e-6982-45c9-a2ae-d939c2a71bf6",
+                    "description": "Minima ea provident illo odio accusantium sunt quibusdam recusandae doloribus ut, facere animi ducimus libero eos earum, fugiat temporibus eveniet aliquam nemo hic ex quos incidunt nesciunt laudantium, consequatur suscipit illo quibusdam atque numquam architecto? Unde tempora ipsa eius itaque illum consequatur nisi veritatis nihil facilis quidem, tenetur praesentium asperiores voluptas, praesentium rerum illum dolore quae explicabo inventore dolorem quod voluptatem id molestias? Praesentium dolore veniam quia ex culpa accusamus rem, officia quaerat dolorem tenetur modi obcaecati ratione veritatis itaque exercitationem?"
+                  }
+                }
+              },
+              {
+                "uuid": "bcc714b7-03aa-4030-949f-5cfbca160a12",
+                "control-id": "si-3",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "si-3_smt": {
+                    "uuid": "6497b1e8-0418-42b9-b4d8-487ca6e1c17c",
+                    "description": "Error tempore eos sequi minima ducimus odio hic reiciendis asperiores iusto eius, beatae architecto dignissimos harum commodi saepe eaque quas voluptatibus? Assumenda amet voluptatum aut, voluptatibus ratione perferendis vero?"
+                  }
+                }
+              },
+              {
+                "uuid": "c94882cc-b59d-4aba-a664-a262b45b8146",
+                "control-id": "si-4",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "si-4_smt": {
+                    "uuid": "1f79db3d-efa1-466a-9d59-9a588f48e172",
+                    "description": "Aliquid blanditiis doloremque iste adipisci, libero mollitia rem dicta quos porro alias consequuntur maiores at ut, sit nisi quia non id libero alias repudiandae aliquam dicta architecto, corporis obcaecati voluptatem?"
+                  },
+                  "si-4_smt.02": {
+                    "uuid": "bdc28d81-a343-4a30-a7d1-e43725676819",
+                    "description": "Cum provident minus facere, veritatis adipisci provident vero voluptatibus eligendi iste iure quaerat suscipit eos aliquam, tempora error voluptatibus accusamus eligendi repellat magnam voluptate eveniet ex hic sunt. Neque unde deserunt possimus dolores, asperiores optio quam molestiae fuga incidunt, necessitatibus temporibus dolore rem officiis placeat hic voluptates neque ex unde, ea beatae aut sequi eligendi quidem facilis culpa, modi consectetur doloribus obcaecati amet a eligendi quasi consequatur cupiditate veritatis nesciunt?"
+                  },
+                  "si-4_smt.05": {
+                    "uuid": "357e0bbc-2dd8-4616-8da7-802ef6e22dfc",
+                    "description": "Quaerat dolore facilis voluptatibus culpa, voluptatem quos voluptates corporis debitis expedita deleniti sapiente similique veniam, repellendus ut minus sapiente obcaecati aliquam laboriosam odit?"
+                  }
+                }
+              },
+              {
+                "uuid": "92f581b6-0359-46d3-bb67-18da6b22e95d",
+                "control-id": "si-6",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "si-6_smt": {
+                    "uuid": "9491a919-a50d-48ff-868b-b589c5e89848",
+                    "description": "Repellat suscipit dolorem nobis ullam ipsa possimus mollitia, eum quia molestias numquam omnis saepe blanditiis illum ipsam accusantium, ab tempora dolore eveniet sint veritatis sed mollitia earum dolorum fugiat rerum, hic ut placeat veniam ipsa quasi iure. Autem fugiat quidem nostrum tempora, sed quaerat ex expedita maxime quibusdam odit vero omnis in?"
+                  }
+                }
+              },
+              {
+                "uuid": "9a7c7794-da65-42b8-85ec-1f3f9dbf2811",
+                "control-id": "si-7",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "si-7_smt": {
+                    "uuid": "b0175475-5bd4-45ba-afc7-97c3fb2b42c3",
+                    "description": "Nihil officia ullam provident consequuntur ratione hic molestiae doloribus iure quis illum, aut sed repellat at et illum sapiente possimus. Officia tempore aut eos consequuntur eveniet a aperiam velit, libero unde eaque rerum eos saepe ullam cumque hic incidunt tenetur? Assumenda nulla dignissimos facere eos, inventore repellat molestiae voluptates accusantium aut, odit quibusdam quo animi fugit reiciendis qui?"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

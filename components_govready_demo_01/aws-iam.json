@@ -1,0 +1,118 @@
+{
+  "component-definition": {
+    "uuid": "a311fd58-74ac-4d2f-955e-5ab7cd9cb7a5",
+    "metadata": {
+      "title": "AWS IAM Component-to-Control Narratives",
+      "published": "2021-06-11T13:55:42+00:00",
+      "last-modified": "2021-05-30T12:47:18+00:00",
+      "version": "2021-05-30T12:47:18+00:00",
+      "oscal-version": "1.0.0-rc1",
+      "props": [
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "A_Tag_1"
+        }
+      ]
+    },
+    "components": {
+      "cbb70a38-0ec0-4284-8d9e-605ffde7dac1": {
+        "title": "AWS IAM",
+        "type": "software",
+        "description": "None",
+        "control-implementations": [
+          {
+            "uuid": "16c8b2fa-28f9-45c4-96f2-8e1cf1de20d9",
+            "source": "NIST_SP-800-53_rev4",
+            "description": "Partial implementation of NIST_SP-800-53_rev4",
+            "implemented-requirements": [
+              {
+                "uuid": "d7681cf4-a786-4dfd-b9e4-027367ed3f49",
+                "control-id": "ac-2",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-2_smt.a": {
+                    "uuid": "cb0d3076-493c-4371-b8d2-681b8f833e26",
+                    "description": "In this architecture, the baseline AWS Identity and Access Management (IAM) groups and roles are associated with access policies to align user accounts with personnel functions related to infrastructure/platform management (e.g. Billing, Amazon EC2/VPC/Amazon RDS systems administration, I.T. auditing, etc.) Modification",
+                    "remarks": ""
+                  },
+                  "ac-2_smt.g": {
+                    "uuid": "23828b7e-48e1-43bd-855e-214252515874",
+                    "description": "In this architecture, AWS CloudTrail and Amazon S3 Bucket logging are enabled, which provide the audit trail capability for the organization to monitor the use of AWS Identity and Access Management (IAM) accounts. An Amazon S3 bucket centrally contains the CloudTrail audit logs. Amazon CloudWatch Alarm is configured to send an alert when any of the following happen:\r\n\r\n- an API call is made to create, update, or delete a Network ACL/Security Group\r\n- AWS account *root user* activity is detected\r\n- multiple API actions or login attempts fail\r\n- IAM Configuration changes are detected\r\n- new IAM access key was created\r\n- changes to the CloudTrail log configuration are detected",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "c627615d-b0bc-4651-953b-cc80fab065cb",
+                "control-id": "ac-2.4",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-2.4_smt": {
+                    "uuid": "eade09cc-6765-428a-85f3-6409b4e5fb45",
+                    "description": "AWS Indentity and Access Management Rem voluptates laudantium, vitae itaque esse.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "f1062ad6-ef45-4a68-b557-bf7239df7769",
+                "control-id": "ac-3",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-3_smt": {
+                    "uuid": "7b446a6f-df76-452f-950c-c3c1bb41be77",
+                    "description": "In this architecture, AWS Identify and Access Management (IAM) and Amazon S3 enforce access to the AWS infrastructure and data in Amazon S3 buckets. The baseline IAM groups and roles are associated with access policies to align user accounts with personnel functions related to infrastructure/platform management (e.g. Billing, Amazon EC2/VPC/Amazon RDS systems administration, I.T. auditing, etc.) Login/API access is restricted to those users for whom the organization has authorized and created, or federated, IAM user accounts, and assigned the appropriate IAM group and/or role memberships. Amazon S3 buckets have specific access control policies assigned to restrict access to those IAM users who are assigned the appropriate IAM roles/groups.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "6783750e-3b1e-40de-a0a7-3e3dcea57204",
+                "control-id": "ac-4",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-4_smt": {
+                    "uuid": "bb60e61d-5e9a-4ed9-9906-74436af58e07",
+                    "description": "AWS Indentity and Access Management Quod perspiciatis error quibusdam culpa obcaecati ducimus nulla exercitationem quia earum accusantium, eveniet illo pariatur deserunt alias, id rerum consectetur quae iusto praesentium eos.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "86fa9203-f239-4a67-b054-674aa982d3c7",
+                "control-id": "ac-5",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-5_smt": {
+                    "uuid": "d4a5565b-37a9-4efc-9681-17070b4a0f81",
+                    "description": "AWS Indentity and Access Management Aliquam incidunt natus ea eum, laborum asperiores maiores veritatis blanditiis ipsam quod deserunt recusandae, quis quam rerum facilis reiciendis iusto odio sapiente. Suscipit amet placeat voluptatem quo deserunt molestiae voluptatibus, in expedita natus voluptate et maiores incidunt, cum ab nam distinctio eaque.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "67c68f7f-6efc-412a-9a1d-ebcfddee0f6a",
+                "control-id": "ac-7",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-7_smt": {
+                    "uuid": "aa9936a9-6dd9-4b1e-b769-93a5ba6a7d3d",
+                    "description": "The AWS IAM (Identity and Access Management) is used to limit access to the AWS Console and use of AWS API's. It is not possible to access AWS services without being granted an AWS IAM account by the organization. AWS IAM requires users to authenticate their identities using username and password or optionally configured multi-factor authentication to gain access to the can access the AWS Console and APIs.",
+                    "remarks": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "component-definition": {
+    "uuid": "e66c82e2-c0ad-41ac-aa23-eba06ec2052c",
+    "metadata": {
+      "title": "Nagios (demo) Component-to-Control Narratives",
+      "published": "2021-06-11T13:55:42+00:00",
+      "last-modified": "2021-04-21T17:23:35+00:00",
+      "version": "2021-04-21T17:23:35+00:00",
+      "oscal-version": "1.0.0-rc1",
+      "props": [
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "demo_data"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "lorem"
+        },
+        {
+          "name": "tag",
+          "ns": "https://govready.com/ns/oscal",
+          "value": "CaaS"
+        }
+      ]
+    },
+    "components": {
+      "0b85e517-7d64-41e5-a5cf-5a817701f91a": {
+        "title": "Nagios (demo) (CaaS)",
+        "type": "software",
+        "description": "Nagios (demo) ",
+        "control-implementations": [
+          {
+            "uuid": "c26d5ba6-1865-455f-9cc2-3189e29fb707",
+            "source": "NIST_SP-800-53_rev4",
+            "description": "Partial implementation of NIST_SP-800-53_rev4",
+            "implemented-requirements": [
+              {
+                "uuid": "4d1d7acb-9e22-4055-91d8-564cfd49e75f",
+                "control-id": "au-6",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "au-6_smt.05": {
+                    "uuid": "79814703-8c6b-420a-b15b-86fe835286e1",
+                    "description": "Similique quo veniam, quas maxime distinctio debitis suscipit, illo modi tenetur repellat nihil quasi eveniet aperiam necessitatibus omnis nemo id, voluptatem tenetur qui corporis, architecto distinctio commodi tenetur quis. Eaque cum porro odit voluptates aperiam provident at unde sit, vero eum recusandae cum ullam sapiente molestias reiciendis eos necessitatibus quis voluptates, incidunt ducimus molestiae distinctio doloremque dolorem repellendus, architecto animi neque voluptatem voluptas exercitationem autem nesciunt quam."
+                  }
+                }
+              },
+              {
+                "uuid": "54116a29-ef52-4d2f-a185-98332c125afe",
+                "control-id": "si-4",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "si-4_smt": {
+                    "uuid": "91b42780-aced-4474-8a6e-102d1136b921",
+                    "description": "Nam quaerat hic, voluptate earum quo eligendi suscipit, totam tenetur quibusdam rerum culpa eaque voluptatum neque fugiat quo ullam ab, modi doloribus esse sequi reiciendis distinctio autem repudiandae atque?"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "component-definition": {
+    "uuid": "f9d46498-3239-4bd7-8a62-02c980205b4f",
+    "metadata": {
+      "title": "Microsoft Active Directory Component-to-Control Narratives",
+      "published": "2021-06-11T14:16:08+00:00",
+      "last-modified": "2021-04-05T10:22:07+00:00",
+      "version": "2021-04-05T10:22:07+00:00",
+      "oscal-version": "1.0.0-rc1"
+    },
+    "components": {
+      "cbb70a38-0ec0-4284-8d9e-605ffde7dac1": {
+        "title": "Microsoft Active Directory",
+        "type": "software",
+        "description": "Microsoft Active Directory",
+        "control-implementations": [
+          {
+            "uuid": "9a7cc172-d921-4ba1-bccd-34287d25e739",
+            "source": "NIST_SP-800-171_rev1",
+            "description": "Partial implementation of NIST_SP-800-171_rev1",
+            "implemented-requirements": [
+              {
+                "uuid": "530735d6-fa34-48c6-a1cc-9cb0b06f5a61",
+                "control-id": "3.3.4",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "3.3.4_smt": {
+                    "uuid": "6ffb7a5e-a708-4928-a2e3-a3b9623df0b0",
+                    "description": "Phasellus molestie scelerisque fermentum. Fusce et scelerisque magna. Fusce nulla urna, scelerisque eu nisi nec, faucibus tincidunt quam. Integer non porta nulla. Praesent vulputate molestie scelerisque. Praesent non ipsum id felis facilisis accumsan in eget neque. Aenean quis ligula mi.",
+                    "remarks": ""
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "uuid": "12f78eca-4ab0-4074-8974-d8444311dcd0",
+            "source": "NIST_SP-800-53_rev4",
+            "description": "Partial implementation of NIST_SP-800-53_rev4",
+            "implemented-requirements": [
+              {
+                "uuid": "7984ed68-34fc-4680-9af5-438874ee5ae4",
+                "control-id": "ac-2",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-2_smt.a": {
+                    "uuid": "cb0d3076-493c-4371-b8d2-681b8f833e26",
+                    "description": "In this architecture,  Microsoft Active Directory groups and roles are associated with access policies to align user accounts with personnel functions related to infrastructure/platform management.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "dc7e657a-da25-4bc7-a2f0-d7eb5366b1af",
+                "control-id": "ac-2.4",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-2.4_smt": {
+                    "uuid": "eade09cc-6765-428a-85f3-6409b4e5fb45",
+                    "description": "AWS Indentity and Access Management Rem voluptates laudantium, vitae itaque esse.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "bd592815-bb75-4417-aac0-c61dd389bc6d",
+                "control-id": "ac-3",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-3_smt": {
+                    "uuid": "7b446a6f-df76-452f-950c-c3c1bb41be77",
+                    "description": "In this architecture, AWS Identify and Access Management (IAM) and Amazon S3 enforce access to the AWS infrastructure and data in Amazon S3 buckets. The baseline IAM groups and roles are associated with access policies to align user accounts with personnel functions related to infrastructure/platform management (e.g. Billing, Amazon EC2/VPC/Amazon RDS systems administration, I.T. auditing, etc.) Login/API access is restricted to those users for whom the organization has authorized and created, or federated, IAM user accounts, and assigned the appropriate IAM group and/or role memberships. Amazon S3 buckets have specific access control policies assigned to restrict access to those IAM users who are assigned the appropriate IAM roles/groups.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "8312c3b4-2cd7-4c72-b026-bbb85bb64c06",
+                "control-id": "ac-4",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-4_smt": {
+                    "uuid": "bb60e61d-5e9a-4ed9-9906-74436af58e07",
+                    "description": "Microsoft Active Directory perspiciatis error quibusdam culpa obcaecati ducimus nulla exercitationem quia earum accusantium, eveniet illo pariatur deserunt alias, id rerum consectetur quae iusto praesentium eos.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "ea36fe39-4d2c-406d-b900-8a1c00cfa9d4",
+                "control-id": "ac-5",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-5_smt": {
+                    "uuid": "d4a5565b-37a9-4efc-9681-17070b4a0f81",
+                    "description": "Microsoft Active Directory Aliquam incidunt natus ea eum, laborum asperiores maiores veritatis blanditiis ipsam quod deserunt recusandae, quis quam rerum facilis reiciendis iusto odio sapiente. Suscipit amet placeat voluptatem quo deserunt molestiae voluptatibus, in expedita natus voluptate et maiores incidunt, cum ab nam distinctio eaque.",
+                    "remarks": ""
+                  }
+                }
+              },
+              {
+                "uuid": "0bd89423-c151-418e-b3f5-1cd785e5a5d4",
+                "control-id": "ac-7",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "ac-7_smt": {
+                    "uuid": "aa9936a9-6dd9-4b1e-b769-93a5ba6a7d3d",
+                    "description": "Microsoft Active Directory is used to limit access to the accounts and service. Microsoft Access Directory is used by the organization to require users to authenticate their identities using username and password.",
+                    "remarks": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

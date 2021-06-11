@@ -1,0 +1,41 @@
+{
+  "component-definition": {
+    "uuid": "c0c99c24-7a0f-4420-af24-b2747de8f893",
+    "metadata": {
+      "title": "Django Component-to-Control Narratives",
+      "published": "2021-06-11T13:55:42+00:00",
+      "last-modified": "2021-05-02T23:13:20+00:00",
+      "version": "2021-05-02T23:13:20+00:00",
+      "oscal-version": "1.0.0-rc1"
+    },
+    "components": {
+      "69b95693-bceb-4835-8bd5-08d7c8462ad7": {
+        "title": "Django web framework",
+        "type": "software",
+        "description": "Django is a Python-based free and open-source web framework that follows the model-template-views (MTV) architectural pattern.",
+        "control-implementations": [
+          {
+            "uuid": "c04eb85e-1222-474b-9e21-347a88838819",
+            "source": "NIST_SP-800-53_rev4",
+            "description": "Partial implementation of NIST_SP-800-53_rev4",
+            "implemented-requirements": [
+              {
+                "uuid": "b067a45a-a540-4555-8076-ad1b91c52125",
+                "control-id": "si-9",
+                "description": "",
+                "remarks": "",
+                "statements": {
+                  "si-9_smt": {
+                    "uuid": "6c359196-dbbd-4133-bdaa-4598ba932338",
+                    "description": "Django provides built-in validators, form validation handling, and auto-escaping to check to ensure correct data types are added by end users.",
+                    "remarks": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
